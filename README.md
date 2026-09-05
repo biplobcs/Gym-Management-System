@@ -6,11 +6,26 @@ The system provides an organized platform for managing **members, trainers, memb
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
 Managing a gym manually can be time-consuming and difficult, especially when dealing with a large number of members, payments, trainers, and membership records.
 
 The **Gym Management System** solves these problems by providing a centralized web application where administrators can efficiently manage gym operations and maintain member information in a structured MySQL database.
+
+---
+
+## 🎯 Project Objectives
+
+The main objectives of this project are:
+
+* Automate gym management activities
+* Reduce manual record keeping
+* Maintain member information efficiently
+* Manage memberships and payments
+* Provide centralized data management
+* Demonstrate PHP and MySQL integration
+* Implement CRUD operations
+* Develop a practical database-driven web application
 
 ---
 
@@ -87,82 +102,6 @@ The **Gym Management System** solves these problems by providing a centralized w
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Home Page
-
-![Home Page](screenshots/home.png)
-
-### 📊 Admin Dashboard
-
-![Admin Dashboard](screenshots/dashboard.png)
-
-### 👤 Member Management
-
-![Member Management](screenshots/members.png)
-
-### 🏋️ Trainer Management
-
-![Trainer Management](screenshots/trainers.png)
-
-### 💳 Membership Management
-
-![Membership Management](screenshots/membership.png)
-
-### 💰 Payment Management
-
-![Payment Management](screenshots/payments.png)
-
-> **Note:** Create a `screenshots` folder in your project and place your screenshots there using the filenames shown above.
-
----
-
-## 📁 Project Structure
-
-```text
-Gym-Management-System/
-│
-├── admin/
-│   ├── dashboard.php
-│   ├── members.php
-│   ├── trainers.php
-│   ├── membership.php
-│   └── payments.php
-│
-├── css/
-│   ├── style.css
-│   └── bootstrap.min.css
-│
-├── js/
-│   └── script.js
-│
-├── images/
-│   └── ...
-│
-├── screenshots/
-│   ├── home.png
-│   ├── dashboard.png
-│   ├── members.png
-│   ├── trainers.png
-│   ├── membership.png
-│   └── payments.png
-│
-├── includes/
-│   ├── db.php
-│   ├── header.php
-│   └── footer.php
-│
-├── index.php
-├── login.php
-├── register.php
-├── gym.sql
-└── README.md
-```
-
-> The structure above is an example. Adjust the folder and file names according to your actual project.
-
----
-
 # 🚀 Installation & Setup
 
 Follow these steps to run the project locally.
@@ -179,8 +118,6 @@ Start:
 Apache
 MySQL
 ```
-
----
 
 ## 2️⃣ Clone the Repository
 
@@ -323,54 +260,6 @@ For example:
 http://localhost/gym/
 ```
 
----
-
-# 🔐 Admin Login
-
-If your project contains a predefined administrator account, add the credentials here:
-
-```text
-Username: your-admin-username
-Password: your-admin-password
-```
-
-> For security reasons, avoid publishing real passwords or sensitive credentials in your GitHub repository.
-
----
-
-# 🔄 CRUD Operations
-
-The system demonstrates common database operations:
-
-```text
-Create
-  ↓
-Read
-  ↓
-Update
-  ↓
-Delete
-```
-
-These operations are used for managing members, trainers, memberships, payments, and other records.
-
----
-
-# 🎯 Project Objectives
-
-The main objectives of this project are:
-
-* Automate gym management activities
-* Reduce manual record keeping
-* Maintain member information efficiently
-* Manage memberships and payments
-* Provide centralized data management
-* Demonstrate PHP and MySQL integration
-* Implement CRUD operations
-* Develop a practical database-driven web application
-
----
-
 # 🔮 Future Improvements
 
 Possible future enhancements include:
@@ -386,49 +275,6 @@ Possible future enhancements include:
 * 📈 Attendance tracking
 * ☁️ Cloud database integration
 * 👨‍💼 Multiple administrator roles
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome!
-
-If you would like to improve this project:
-
-```bash
-# Fork the repository
-
-# Create a new branch
-git checkout -b feature/new-feature
-
-# Make your changes
-
-# Commit your changes
-git add .
-git commit -m "Add new feature"
-
-# Push the branch
-git push origin feature/new-feature
-```
-
-Then create a **Pull Request**.
-
----
-
-# 📄 License
-
-This project is developed for **educational and project purposes**.
-
-You are free to modify and improve the project according to your requirements.
-
----
-
-# 👨‍💻 Author
-
-**Your Name**
-
-GitHub:
-`https://github.com/your-username`
 
 ---
 
